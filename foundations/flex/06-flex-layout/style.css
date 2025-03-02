@@ -33,7 +33,10 @@ button {
   flex-direction: row;
   justify-content: center;
   margin-top: 12px;
+  gap: 4px;
 }
+
+
 
 .input {
   display: flex;
