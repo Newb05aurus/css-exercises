@@ -10,6 +10,7 @@ body {
   display: flex;
   flex-direction: row;
   height: auto;
+  flex: 1 0 auto;
 }
 
 .flex-wrapper {
@@ -28,7 +29,7 @@ body {
   display: flex;
   align-items: center;
   height: 72px;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
 }
 
 .footer {
@@ -37,7 +38,7 @@ body {
   color: darkmagenta;
   display: flex;
   align-items: center;
-  flex: 1 0 auto;
+  flex: 0 0 auto;
   justify-content: center;
   width: 100%;
 }
@@ -52,11 +53,11 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 26px 16px;
-  height: 100px;
+  padding: 18px 16px;
+  max-height: 295px;
   width: 300px;
   display: flex;
-  align-items: center;
+  flex-basis: 1 0 auto;
 }
 
 ul {
