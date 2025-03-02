@@ -86,3 +86,9 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+@media (min-height: 800px) {
+  .card {
+    height: 295px;
+  }
+}

@@ -10,7 +10,8 @@ body {
   display: flex;
   flex-direction: row;
   height: auto;
-  flex: 1 0 auto;
+  flex: 1;
+  align-content: stretch;
 }
 
 .flex-wrapper {
@@ -54,10 +55,9 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   padding: 18px 16px;
-  max-height: 295px;
+  height: auto;
   width: 300px;
   display: flex;
-  flex-basis: 1 0 auto;
 }
 
 ul {
@@ -76,4 +76,10 @@ a {
 
 span {
   margin-left: 15px;
+}
+
+@media (min-height: 800px) {
+  .card {
+    height: 295px;
+  }
 }
